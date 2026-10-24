@@ -1,0 +1,51 @@
+body {
+    background: #FCB045;
+    background: radial-gradient(circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 0.66) 50%, rgba(194, 45, 67, 0.99) 100%);
+}
+
+button{
+    background-color: bisque;
+    width: 75px;
+    height: 27.5px;
+    font-size: 15px;
+    border-radius: 5px;
+    color:brown
+}
+
+button:hover{
+    width: 80px;
+    height: 29px;
+    background-color: rgb(251, 187, 148);
+}
+
+h1 {
+    border-width: 7px;
+    border-color:antiquewhite;
+    border-radius: 5px;
+    border-style: solid;
+    line-height: 300%;
+    background-color: rgb(236, 107, 107);
+    text-align: center;
+    font-family:verdana;
+    color: maroon;
+    font-size: 1.5em;
+}
+
+#jadeHeading{
+    background-color: aliceblue;
+    border-color: maroon;
+    border-width: 3px;
+
+}
+
+details {
+    font-family: sans-serif;
+
+}
+
+#firstParagraph {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(88, 30, 3);
+}
