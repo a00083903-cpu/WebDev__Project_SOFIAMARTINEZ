@@ -11,15 +11,16 @@ div {
     height: 20px;
 }
 #firstOne {
-    border: 2px solid black;
-    background-color:rgb(88, 167, 210);
+    border: 2px solid rgb(4, 37, 47);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.97) 0%, rgba(0, 212, 255, 1) 43%, rgba(9, 9, 121, 1) 100%);
     width: 500px;
     height: 200px;
     margin: auto;
     padding: 20px;
 }
 #secondOne {
-    background-color:rgb(60, 186, 146);
+    border: 2px solid rgb(1, 43, 20);
+    background-image: linear-gradient(90deg,rgba(163, 240, 163, 0.97) 0%, rgba(0, 217, 156, 1) 43%, rgba(7, 102, 80, 1) 100%);
     width: 500px;
     height: 200px;
     margin: auto;
