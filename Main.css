@@ -9,7 +9,7 @@ button{
     height: 27.5px;
     font-size: 15px;
     border-radius: 5px;
-    color:brown
+    color:brown;
 }
 
 button:hover{
@@ -20,11 +20,11 @@ button:hover{
 
 h1 {
     border-width: 7px;
-    border-color:antiquewhite;
+    border-color:rgb(250, 235, 215);
     border-radius: 5px;
     border-style: solid;
     line-height: 300%;
-    background-color: rgb(236, 107, 107);
+    background-color: rgb(243, 132, 132);
     text-align: center;
     font-family:verdana;
     color: maroon;
@@ -32,10 +32,22 @@ h1 {
 }
 
 #jadeHeading{
-    background-color: aliceblue;
-    border-color: maroon;
-    border-width: 3px;
+    background-color: antiquewhite;
+    font-family:verdana;
+    color: maroon;
+    font-size:1.2em;
+    padding:10px;
+    text-align:center;
+}
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+  border: 5px solid antiquewhite;
 }
 
 details {
@@ -48,4 +60,11 @@ details {
     font-optical-sizing: auto;
     font-style: normal;
     color:rgb(88, 30, 3);
+}
+.box{
+    padding: 10px;
+    padding-top: 3px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
 }
