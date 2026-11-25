@@ -3,6 +3,13 @@ body {
     background: radial-gradient(circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 0.66) 50%, rgba(194, 45, 67, 0.99) 100%);
 }
 
+.anime-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
 button{
     background-color: bisque;
     width: 75px;
@@ -41,14 +48,11 @@ h1 {
     text-align:center;
 }
 
-div {
-  display: flex;
-  justify-content: center;
-}
-
 img {
-  width: 50%;
-  border: 5px solid antiquewhite;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid antiquewhite;
 }
 
 details {
